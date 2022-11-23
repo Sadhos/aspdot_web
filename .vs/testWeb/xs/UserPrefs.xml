@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F3763600-38CC-4BF2-9BBF-E6B6085C0BEB}|">
+  <MonoDevelop.Ide.ItemProperties.testWeb PreferredExecutionTarget="/usr/bin/brave-browser-stable" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../PracticeWebSite1/PracticeWebSite1/Admin/AdminPanel.aspx.cs">
+    <Files>
+      <File FileName="testWeb/Default.aspx" Line="1" Column="1" />
+      <File FileName="../PracticeWebSite1/PracticeWebSite1/Admin/AdminPanel.aspx.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testWeb" expanded="True">
+            <Node name="testWeb" expanded="True">
+              <Node name="Default.aspx" expanded="True" selected="True" />
+              <Node name="Global.asax" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.testWeb.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
