@@ -15,6 +15,8 @@ namespace testWeb
                                            "adminpanel",
                                            "~/Admin/AdminPanel.aspx");
 
+            
+
         }
         
     }

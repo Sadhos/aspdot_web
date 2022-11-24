@@ -98,8 +98,11 @@
   <ItemGroup>
     <Content Include="Admin\AdminLogin.aspx" />
     <Content Include="Admin\AdminPanel.aspx" />
+    <Content Include="Food\Home.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.master" />
+    <Content Include="Movie\Home.aspx" />
+    <Content Include="Sport\Home.aspx" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>
@@ -118,6 +121,13 @@
     <Compile Include="Admin\AdminPanel.aspx.designer.cs">
       <DependentUpon>AdminPanel.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Food\Home.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Food\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -133,6 +143,20 @@
     </Compile>
     <Compile Include="Home.master.designer.cs">
       <DependentUpon>Home.master</DependentUpon>
+    </Compile>
+    <Compile Include="Movie\Home.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Movie\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sport\Home.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sport\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

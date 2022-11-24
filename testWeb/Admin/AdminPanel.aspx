@@ -10,7 +10,7 @@
             <td>
                 <asp:DropDownList runat="server" ID="DDLBCat">
                     <asp:ListItem>Food</asp:ListItem>
-                    <asp:ListItem>Sports</asp:ListItem>
+                    <asp:ListItem>Sport</asp:ListItem>
                     <asp:ListItem>Movie</asp:ListItem>
                 </asp:DropDownList>
             </td>
@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <td>Posted Date</td>
-            <td><asp:Label runat="server" ID="LabBPostdate" Text=""></asp:Label></td>
+            <td><asp:Label runat="server" ID="LabBPostdate" Text="DateTime"></asp:Label></td>
         </tr>
         
 

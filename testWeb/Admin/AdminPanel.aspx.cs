@@ -3,6 +3,7 @@ using System.Web;
 using System.Web.UI;
 using System.Data;
 using System.Configuration;
+using Google.Protobuf.WellKnownTypes;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 namespace testWeb.Admin
@@ -49,11 +50,11 @@ namespace testWeb.Admin
 
               
                     sqlCmd.Parameters.AddWithValue("_BPostdate",
-                                                   LabBPostdate.Text.Trim());
+                                                   LabBPostdate.Text.ToString());
                     
                     sqlCmd.ExecuteNonQuery();
 
-                    //Response.Redirect("~/Admin/AdminPanel.aspx");
+                    Response.Redirect("~/Admin/AdminPanel.aspx");
                     lblSuccessMessage.Text = "Submitted Successfully";
                 }
             }

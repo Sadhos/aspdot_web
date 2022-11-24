@@ -13,5 +13,28 @@ namespace testWeb.Sport
 
     public partial class Home
     {
+
+        /// <summary>
+        /// RepBlogDetails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater RepBlogDetails;
+
+        /// <summary>
+        /// Master property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new testWeb.Home Master
+        {
+            get
+            {
+                return ((testWeb.Home)(base.Master));
+            }
+        }
     }
 }
