@@ -15,10 +15,10 @@
             <span class="fs-2">log kya kahenge</span>
         </a>
         <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-            <a class="me-3 py-2 text-dark text-decoration-none" href="Default.aspx" runat="server">Home</a>
-            <a class="me-3 py-2 text-dark text-decoration-none" href="~/Food/Home.aspx" runat="server">Food</a>
-            <a class="me-3 py-2 text-dark text-decoration-none" href="~/Sport/Home.aspx" runat="server">Sport</a>
-            <a class="py-2 text-dark text-decoration-none" href="~/Movie/Home.aspx" runat="server">Movie</a>
+           <button class="btn btn-primary"><a class="me-3 py-2 text-dark text-decoration-none" href="Default.aspx" runat="server">Home</a></button> 
+           <button class="btn btn-primary"><a class="me-3 py-2 text-dark text-decoration-none" href="~/Food/Home.aspx" runat="server">Food</a></button> 
+            <button class="btn btn-primary"><a class="me-3 py-2 text-dark text-decoration-none" href="~/Sport/Home.aspx" runat="server">Sport</a></button>
+            <button class="btn btn-primary"><a class="py-2 text-dark text-decoration-none" href="~/Movie/Home.aspx" runat="server">Movie</a></button>
         </nav>
     </div>
     <form id="form2" runat="server">
@@ -45,14 +45,14 @@
 
 <br/><br/>
 <form id="form1" runat="server">
-    <div style="display:flex;justify-content:center">
+    <div style="display:flex;justify-content:center;">
         <div class="row" style="max-width: 80%;">
-            <div>
+            <div class="col-lg-8">
                 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 
                 </asp:ContentPlaceHolder>
             </div>
-            <div style="max-width: 50%;">
+            <div class="col-lg-4" style="max-width: 50%;">
                 Category:
                 <hr/>
                 <ol class="list-group list-group-numbered">
