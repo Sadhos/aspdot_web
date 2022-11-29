@@ -17,9 +17,24 @@ namespace testWeb.Admin
             }
             else
             {
-                Response.Redirect("~/Admin/AdminLogin.aspx");
+                clear();
             }
         }
+        void clear()
+        {
+            TxtAdminLogin.Text = "";
+            TxtPassword.Text = "";
+        }
+        
+        protected void TxtAdminLogin_TextChanged(object sender, EventArgs e)
+        {
+            TxtAdminLogin.Text = Server.HtmlEncode(TxtAdminLogin.Text);
+        }
+        protected void TxtPassword_OnTextChanged(object sender, EventArgs e)
+        {
+            TxtPassword.Text = Server.HtmlEncode(TxtPassword.Text);
+        }
+        
     }
 }
 
